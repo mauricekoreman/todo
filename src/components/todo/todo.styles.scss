@@ -1,0 +1,23 @@
+.todo__list__el {
+  background-color: #00000015;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color ease .15s;
+  
+  
+  &:hover {
+    background-color: #00000020
+  }
+
+  &__btn {
+    border: none;
+    background: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

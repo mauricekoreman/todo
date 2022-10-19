@@ -1,0 +1,23 @@
+.home__container {
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  margin-left: auto;
+  background-color: #eee;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.home__todo-input {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.todo {
+  &__list {
+    list-style: none;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+}
